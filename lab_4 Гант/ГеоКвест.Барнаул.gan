@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Разработка приложения ГеоКвест.Барнаул" company="Лаборатория разработки Web-сервисов" webLink="http://kuchin.myspt.ru" view-date="2025-01-27" view-index="0" gantt-divider-location="661" resource-divider-location="430" version="3.3.3316" locale="ru_RU">
+    <description><![CDATA[Создание игрового веб-приложения, которое позволит пользователям угадывать места в городе Барнаул, основываясь на панорамах.]]></description>
+    <view zooming-state="default:5" id="gantt-chart">
+        <field id="tpd3" name="Название" width="368" order="0"/>
+        <field id="tpd4" name="Дата начала" width="138" order="1"/>
+        <field id="tpd5" name="Дата окончания" width="139" order="2"/>
+        <field id="tpd15" name="Заметки" width="20" order="3"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="filter.dueTodayTasks" value="false"/>
+        <option id="filter.overdueTasks" value="false"/>
+        <option id="filter.inProgressTodayTasks" value="false"/>
+        <option id="color.recent"><![CDATA[#99ff66 #000000 #999900 #009999 #ffcccc #cccccc #9933ff #00cccc #ccff00 #990066]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Имя" width="219" order="0"/>
+        <field id="1" name="Стандартная роль" width="192" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="0"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+        <date year="" month="1" date="1" type="HOLIDAY"><![CDATA[Новый Год]]></date>
+        <date year="" month="1" date="7" type="HOLIDAY"><![CDATA[Рождество Христово]]></date>
+        <date year="" month="2" date="23" type="HOLIDAY"><![CDATA[День Защитника Отечества]]></date>
+        <date year="" month="3" date="8" type="HOLIDAY"><![CDATA[Международный женский день]]></date>
+        <date year="" month="5" date="1" type="HOLIDAY"><![CDATA[Праздник Весны и Труда]]></date>
+        <date year="" month="5" date="9" type="HOLIDAY"><![CDATA[День Победы]]></date>
+        <date year="" month="6" date="12" type="HOLIDAY"><![CDATA[День России]]></date>
+        <date year="" month="11" date="4" type="HOLIDAY"><![CDATA[День народного единства]]></date>
+        <date year="2021" month="1" date="2" type="HOLIDAY"/>
+        <date year="2021" month="1" date="3" type="HOLIDAY"/>
+        <date year="2021" month="1" date="4" type="HOLIDAY"/>
+        <date year="2021" month="1" date="5" type="HOLIDAY"/>
+        <date year="2021" month="1" date="6" type="HOLIDAY"/>
+        <date year="2021" month="1" date="8" type="HOLIDAY"/>
+        <date year="2021" month="1" date="9" type="HOLIDAY"/>
+        <date year="2021" month="1" date="10" type="HOLIDAY"/>
+        <date year="2021" month="2" date="20" type="WORKING_DAY"/>
+        <date year="2021" month="2" date="22" type="HOLIDAY"/>
+        <date year="2021" month="11" date="5" type="HOLIDAY"/>
+        <date year="2021" month="12" date="31" type="HOLIDAY"/>
+        <date year="2020" month="1" date="2" type="HOLIDAY"><![CDATA[Новогодние каникулы]]></date>
+        <date year="2020" month="1" date="3" type="HOLIDAY"><![CDATA[Новогодние каникулы]]></date>
+        <date year="2020" month="1" date="4" type="HOLIDAY"><![CDATA[Новогодние каникулы]]></date>
+        <date year="2020" month="1" date="5" type="HOLIDAY"><![CDATA[Новогодние каникулы]]></date>
+        <date year="2020" month="1" date="6" type="HOLIDAY"><![CDATA[Новогодние каникулы]]></date>
+        <date year="2020" month="1" date="8" type="HOLIDAY"><![CDATA[Новогодние каникулы]]></date>
+        <date year="2020" month="2" date="24" type="HOLIDAY"><![CDATA[Перенесённый выходной (с 23 февраля)]]></date>
+        <date year="2020" month="3" date="9" type="HOLIDAY"><![CDATA[Перенесённый выходной (с 8 марта)]]></date>
+        <date year="2020" month="5" date="4" type="HOLIDAY"><![CDATA[Перенесённый выходной (с 4 января)]]></date>
+        <date year="2020" month="5" date="5" type="HOLIDAY"><![CDATA[Перенесённый выходной (с 5 января)]]></date>
+        <date year="2019" month="1" date="2" type="HOLIDAY"><![CDATA[Новогодние каникулы]]></date>
+        <date year="2019" month="1" date="3" type="HOLIDAY"><![CDATA[Новогодние каникулы]]></date>
+        <date year="2019" month="1" date="4" type="HOLIDAY"><![CDATA[Новогодние каникулы]]></date>
+        <date year="2019" month="1" date="8" type="HOLIDAY"><![CDATA[Новогодние каникулы]]></date>
+        <date year="2019" month="5" date="2" type="HOLIDAY"><![CDATA[Перенесённый выходной (с 5 января)]]></date>
+        <date year="2019" month="5" date="3" type="HOLIDAY"><![CDATA[Перенесённый выходной (с 6 января)]]></date>
+        <date year="2019" month="5" date="10" type="HOLIDAY"><![CDATA[Перенесённый выходной (с 23 февраля)]]></date>
+        <date year="2015" month="1" date="2" type="HOLIDAY"><![CDATA[Новогодние каникулы]]></date>
+        <date year="2015" month="1" date="3" type="HOLIDAY"><![CDATA[Новогодние каникулы]]></date>
+        <date year="2015" month="1" date="4" type="HOLIDAY"><![CDATA[Новогодние каникулы]]></date>
+        <date year="2015" month="1" date="5" type="HOLIDAY"><![CDATA[Новогодние каникулы]]></date>
+        <date year="2015" month="1" date="6" type="HOLIDAY"><![CDATA[Новогодние каникулы]]></date>
+        <date year="2015" month="1" date="8" type="HOLIDAY"><![CDATA[Новогодние каникулы]]></date>
+        <date year="2015" month="1" date="9" type="HOLIDAY"><![CDATA[Перенесённый выходной (3 января)]]></date>
+        <date year="2015" month="5" date="4" type="HOLIDAY"><![CDATA[Перенесённый выходной (4 января)]]></date>
+        <date year="2016" month="1" date="2" type="HOLIDAY"><![CDATA[Новогодние каникулы]]></date>
+        <date year="2016" month="1" date="3" type="HOLIDAY"><![CDATA[Новогодние каникулы]]></date>
+        <date year="2016" month="1" date="4" type="HOLIDAY"><![CDATA[Новогодние каникулы]]></date>
+        <date year="2016" month="1" date="5" type="HOLIDAY"><![CDATA[Новогодние каникулы]]></date>
+        <date year="2016" month="1" date="6" type="HOLIDAY"><![CDATA[Новогодние каникулы]]></date>
+        <date year="2016" month="1" date="8" type="HOLIDAY"><![CDATA[Новогодние каникулы]]></date>
+        <date year="2016" month="2" date="20" type="WORKING_DAY"><![CDATA[Выходной перенесен на 2016-02-22]]></date>
+        <date year="2016" month="2" date="22" type="HOLIDAY"><![CDATA[Перенесённый выходной (20 февраля)]]></date>
+        <date year="2016" month="3" date="7" type="HOLIDAY"><![CDATA[Перенесённый выходной (3 января)]]></date>
+        <date year="2016" month="5" date="2" type="HOLIDAY"><![CDATA[Перенесённый выходной (1 мая)]]></date>
+        <date year="2016" month="5" date="3" type="HOLIDAY"><![CDATA[Перенесённый выходной (2 января)]]></date>
+        <date year="2016" month="6" date="13" type="HOLIDAY"><![CDATA[Перенесённый выходной (12 июня)]]></date>
+        <date year="2017" month="1" date="2" type="HOLIDAY"><![CDATA[Новогодние каникулы]]></date>
+        <date year="2017" month="1" date="3" type="HOLIDAY"><![CDATA[Новогодние каникулы]]></date>
+        <date year="2017" month="1" date="4" type="HOLIDAY"><![CDATA[Новогодние каникулы]]></date>
+        <date year="2017" month="1" date="5" type="HOLIDAY"><![CDATA[Новогодние каникулы]]></date>
+        <date year="2017" month="1" date="6" type="HOLIDAY"><![CDATA[Новогодние каникулы]]></date>
+        <date year="2017" month="1" date="8" type="HOLIDAY"><![CDATA[Новогодние каникулы]]></date>
+        <date year="2017" month="2" date="24" type="HOLIDAY"><![CDATA[Перенесённый выходной (1 января)]]></date>
+        <date year="2017" month="5" date="8" type="HOLIDAY"><![CDATA[Перенесённый выходной (7 января)]]></date>
+        <date year="2017" month="11" date="6" type="HOLIDAY"><![CDATA[Перенесённый выходной (4 ноября)]]></date>
+        <date year="2018" month="1" date="2" type="HOLIDAY"><![CDATA[Новогодние каникулы]]></date>
+        <date year="2018" month="1" date="3" type="HOLIDAY"><![CDATA[Новогодние каникулы]]></date>
+        <date year="2018" month="1" date="4" type="HOLIDAY"><![CDATA[Новогодние каникулы]]></date>
+        <date year="2018" month="1" date="5" type="HOLIDAY"><![CDATA[Новогодние каникулы]]></date>
+        <date year="2018" month="3" date="9" type="HOLIDAY"><![CDATA[Перенесённый выходной (с 6 января)]]></date>
+        <date year="2018" month="4" date="28" type="WORKING_DAY"><![CDATA[Рабочий день взамен 30 апреля]]></date>
+        <date year="2018" month="4" date="30" type="HOLIDAY"><![CDATA[Перенесённый выходной (с 28 апреля)]]></date>
+        <date year="2018" month="5" date="2" type="HOLIDAY"><![CDATA[Перенесённый выходной (с 7 января)]]></date>
+        <date year="2018" month="6" date="9" type="WORKING_DAY"><![CDATA[Рабочий день взамен 11 июня]]></date>
+        <date year="2018" month="6" date="11" type="HOLIDAY"><![CDATA[Перенесённый выходной (с 9 июня)]]></date>
+        <date year="2018" month="12" date="29" type="WORKING_DAY"><![CDATA[Рабочий день взамен 31 декабря]]></date>
+        <date year="2018" month="12" date="31" type="HOLIDAY"><![CDATA[Перенесённый выходной (с 29 декабря)]]></date>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="78" uid="3ea48d6d8d294f8e9cc290aaf2e6eb60" name="Инициация" color="#990066" meeting="false" start="2025-01-31" duration="4" complete="100" priority="2" expand="true">
+            <task id="2" uid="2b940d5c851a44f285c30a190e52f7ae" name="Подготовка устава проекта" color="#cccccc" meeting="false" start="2025-01-31" duration="2" complete="100" priority="2" expand="true">
+                <notes><![CDATA[Формирование официального документа, определяющего цели, задачи, критерии успеха и границы проекта.]]></notes>
+            </task>
+            <task id="92" uid="8f02e7664d8643c0866a9665a8250803" name="Написание коммерческого предложения" color="#99ff66" meeting="false" start="2025-01-31" duration="3" complete="100" priority="2" expand="true">
+                <notes><![CDATA[Подготовка документа, содержащего описание идеи, ценности, выгод, сроков и предварительной оценки стоимости проекта для заказчиков и инвесторов.]]></notes>
+            </task>
+            <task id="3" uid="44e95be3a05344458aa229ea4d8bd222" name="Идентификация и регистрация стейкхолдеров" color="#99ff66" meeting="false" start="2025-02-01" duration="3" complete="100" expand="true">
+                <notes><![CDATA[Определение всех заинтересованных сторон, их ролей и ожиданий от проекта.]]></notes>
+            </task>
+        </task>
+        <task id="79" uid="ba6e212ba7ea460bb6b43115d8af1104" name="Планирование" color="#ccff00" meeting="false" start="2025-02-05" duration="39" complete="100" expand="true">
+            <task id="10" uid="ff4dba647db64869b6c05b39fa9e8f53" name="Планирование управления содержанием" color="#66ccff" meeting="false" start="2025-02-05" duration="2" complete="100" priority="2" expand="true">
+                <notes><![CDATA[Разработка подхода к сбору и документированию требований, выбор методов и инструментов.]]></notes>
+            </task>
+            <task id="4" uid="fda1355c3d4b4888b498a264534e1cbe" name="Сбор детальных требований" color="#66ccff" meeting="false" start="2025-02-06" duration="5" complete="100" priority="2" expand="true">
+                <notes><![CDATA[Интервью со стейкхолдерами, формирование списка функциональных и нефункциональных требований.]]></notes>
+            </task>
+            <task id="6" uid="5a47596fd9494a9aafb453a61b54a576" name="Уточнение приоритетов функционала" color="#66ccff" meeting="false" start="2025-02-11" duration="5" complete="100" expand="true">
+                <notes><![CDATA[Расстановка приоритетов по пользовательским историям с учётом бизнес-ценности.]]></notes>
+                <depend id="12" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="12" uid="d7399a13b7a7470cb67ce66d0e07b345" name="Создание структуры содержания проекта (WBS)" color="#339900" meeting="false" start="2025-02-17" duration="3" complete="100" priority="2" expand="true">
+                <notes><![CDATA[Разбиение проекта на блоки задач и подзадачи.
+Создание структуры содержания проекта (WBS)
+Формирование иерархической структуры задач (WBS)
+Создание структурированного перечня задач проекта (WBS)
+Определение содержания работ проекта (WBS)]]></notes>
+            </task>
+            <task id="13" uid="692fe6e88c0045f3a0933e506bff0ebe" name="Определение зависимостей" color="#339900" meeting="false" start="2025-02-19" duration="2" complete="100" priority="2" expand="true">
+                <notes><![CDATA[Установка логических связей между задачами (что за чем идет, где возможна параллельная работа).]]></notes>
+            </task>
+            <task id="15" uid="389fdcba87c64d8aaf7f8916b68a0e07" name="Оценка необходимых ресурсов операций" color="#339900" meeting="false" start="2025-02-20" duration="2" complete="100" priority="2" expand="true">
+                <notes><![CDATA[Выявление требуемых компетенций, людей и инструментов для выполнения проекта]]></notes>
+                <depend id="14" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="14" uid="e3fc5381f9ee4fd69d9fd6ca606da41c" name="Разработка графика проекта (Gantt)" color="#339900" meeting="false" start="2025-02-22" duration="2" complete="100" priority="2" expand="true">
+                <notes><![CDATA[Формирование календарного плана, согласование сроков и распределение ресурсов.]]></notes>
+            </task>
+            <task id="16" uid="bbc4117d58a24b04b722bae37211612a" name="Планирование распределения ролей" color="#99ff66" meeting="false" start="2025-02-25" duration="2" complete="100" expand="true">
+                <notes><![CDATA[Определение ролей и зон ответственности, составление RACI-матрицы при необходимости.]]></notes>
+            </task>
+            <task id="17" uid="c3abe477770640aabb1ffd9fb2dc4430" name="Определение плана коммуникаций" color="#ff9900" meeting="false" start="2025-02-26" duration="1" complete="100" expand="true">
+                <notes><![CDATA[Определение частоты и формата встреч, отчетов и рассылок.]]></notes>
+            </task>
+            <task id="18" uid="541170f063d44a209ce5c2e299e2fdce" name="Настройка инструментов для общения" color="#ff9900" meeting="false" start="2025-02-26" duration="1" complete="100" expand="true">
+                <notes><![CDATA[Настройка Slack/Telegram, Trello/Jira, репозитория (GitHub/GitLab) и других инструментов.]]></notes>
+            </task>
+            <task id="19" uid="44b56f83f6f048ae986ead0f04cfa3e7" name="Идентификация рисков" color="#ff0033" meeting="false" start="2025-02-28" duration="2" complete="100" priority="2" expand="true">
+                <notes><![CDATA[Составление списка возможных рисков (технических, организационных и т.д.).]]></notes>
+                <depend id="20" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="20" uid="1fd16e3775bb42f08483b3c9f1551c4e" name="Анализ рисков" color="#ff0033" meeting="false" start="2025-03-03" duration="2" complete="100" expand="true">
+                <notes><![CDATA[Оценка вероятности и влияния каждого риска.]]></notes>
+            </task>
+            <task id="21" uid="a86a5e1591014846927b4bb7c6363e2e" name="Разработка плана реагирования" color="#ff0033" meeting="false" start="2025-03-04" duration="2" complete="100" expand="true">
+                <notes><![CDATA[Определение стратегий реагирования (избежать, смягчить, принять) и разработка резервных планов.]]></notes>
+            </task>
+            <task id="23" uid="bfa443876db944a185677f1ad973d8ab" name="Согласование бюджетов" color="#ccccff" meeting="false" start="2025-03-07" duration="2" complete="100" expand="true">
+                <notes><![CDATA[Уточнение стоимости и распределение бюджета на предполагаемые закупки.]]></notes>
+            </task>
+            <task id="24" uid="4dd52f50ac024e04bc05508bc265ebc4" name="Определение критериев качества" color="#ffcccc" meeting="false" start="2025-03-11" duration="2" complete="100" expand="true">
+                <notes><![CDATA[Определение требований к функционалу и интерфейсу для достижения заданного уровня качества.]]></notes>
+                <depend id="25" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="25" uid="c1cb92c7e5894b34b18d0caaf450f74f" name="Планирование проверок качества" color="#ffcccc" meeting="false" start="2025-03-13" duration="2" complete="100" expand="true">
+                <notes><![CDATA[Разработка плана тестирования, проведения код-ревью и сбора метрик качества.]]></notes>
+            </task>
+            <task id="26" uid="2c6bb8b88d4343f2b1d5f0692239f12f" name="Разработка плана управления проектом" color="#cccccc" meeting="false" start="2025-03-15" duration="5" complete="100" priority="2" expand="true">
+                <notes><![CDATA[Составление единого документа, объединяющего все управленческие планы (содержание, сроки, затраты, качество, коммуникации, риски и т.д.).]]></notes>
+            </task>
+            <task id="89" uid="df7bf091f65e4c9c963179255509f7b0" name="Постановка задач(уже переход в фазу исполнения)" color="#999900" meeting="false" start="2025-03-21" duration="2" complete="100" priority="2" expand="true">
+                <notes><![CDATA[Формирование и назначение конкретных задач в таск-трекере (например, Jira, Trello), определение сроков и ответственных исполнителей.]]></notes>
+            </task>
+        </task>
+        <task id="29" uid="5b1bb734a4314f8fa9532970dc2f46cc" name="Разработка дизайна и пользовательского интерфейса" color="#00ffcc" meeting="false" start="2025-03-21" duration="7" complete="0" expand="true">
+            <task id="27" uid="76e9c0631ec948348514dc88d8bf64c7" name="Скетчи и прототипы интерфейса" color="#00ffcc" meeting="false" start="2025-03-21" duration="4" complete="0" priority="2" expand="true">
+                <notes><![CDATA[Создание прототипов основных экранов, отображающих логику работы и расположение элементов.]]></notes>
+                <depend id="28" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="28" uid="04a27baf1d5347489fe49ac23c2309b3" name="Создание дизайн-системы" color="#00ffcc" meeting="false" start="2025-03-26" duration="3" complete="0" expand="true">
+                <notes><![CDATA[Определение стилей, палитры, шрифтов и компонентов для единообразного интерфейса.]]></notes>
+                <depend id="32" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="35" uid="0f8c016076724772958012d505a7e56f" name="Настройка инфраструктуры" meeting="false" start="2025-03-21" duration="7" complete="0" expand="true">
+            <task id="36" uid="1ccf9407f8f149fc8d494075cfbd74b1" name="Настройка серверного окружения" color="#333333" meeting="false" start="2025-03-21" duration="4" complete="0" expand="true">
+                <notes><![CDATA[Выбор и настройка хостинга (VPS/облако), настройка баз данных.]]></notes>
+            </task>
+            <task id="91" uid="f14a92a68679405fa3c676cbb6c8434c" name="Разворачивание VCS(Git)" color="#000000" meeting="false" start="2025-03-26" duration="1" complete="0" expand="true">
+                <notes><![CDATA[Разворачивание репозитория на github.]]></notes>
+            </task>
+            <task id="37" uid="b886c396580e42168c82e7e997d92a0a" name="Настройка CI/CD" color="#333333" meeting="false" start="2025-03-26" duration="3" complete="0" expand="true">
+                <notes><![CDATA[Автоматизация процессов сборки и деплоя]]></notes>
+            </task>
+            <task id="38" uid="b43842f16ad94028b299b001cc70d65d" name="Мониторинг и логирование" color="#333333" meeting="false" start="2025-03-26" duration="3" complete="0" expand="true">
+                <notes><![CDATA[Настройка систем логирования и мониторинга производительности и ресурсов]]></notes>
+                <depend id="31" type="2" difference="0" hardness="Strong"/>
+                <depend id="40" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="30" uid="7b206544fab54000ac6c216f49f5b4f8" name="Фронтенд-разработка" color="#cc9900" shape="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" meeting="false" start="2025-03-29" duration="22" complete="0" expand="true">
+            <task id="31" uid="d3c05d45d38a409eb56ca46342647b72" name="Настройка проекта (frontend)" color="#cc9900" meeting="false" start="2025-03-29" duration="2" complete="0" expand="true">
+                <notes><![CDATA[Инициализация проекта, настройка окружения]]></notes>
+                <depend id="32" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="32" uid="b5186e36ea70483ab744c4295180c2d2" name="Реализация основных экранов" color="#cc9900" meeting="false" start="2025-04-01" duration="10" complete="0" priority="2" expand="true">
+                <notes><![CDATA[Разработка ключевых страниц: панорама, карта, окно для угадывания локации, результаты.]]></notes>
+                <depend id="33" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="33" uid="c41bf428133f412c9d3f04bb88b1aa5f" name="Адаптивная верстка и UI-детали" color="#cc9900" meeting="false" start="2025-04-12" duration="5" complete="0" expand="true">
+                <notes><![CDATA[Обеспечение корректного отображения на разных устройствах, а также реализация анимаций и эффектов.]]></notes>
+                <depend id="34" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="34" uid="0daec3e5a4f64c1a9f157a8eda343cd9" name="Интеграция с API бэкенда" color="#cc9900" meeting="false" start="2025-04-18" duration="5" complete="0" expand="true">
+                <notes><![CDATA[Подключение запросов и обработка ответов сервера (локации, результаты, авторизация и пр.).]]></notes>
+            </task>
+        </task>
+        <task id="39" uid="e6b09bcd1b1f4833b6180be312a29fc1" name="Бэкенд-разработка" color="#ffff00" meeting="false" start="2025-03-29" duration="24" complete="0" expand="true">
+            <task id="40" uid="d157626d7cd04d5c9ba1ed990630a092" name="Архитектура сервера и базы данных" color="#ffff00" meeting="false" start="2025-03-29" duration="4" complete="0" priority="2" expand="true">
+                <notes><![CDATA[Выбор фреймворка, проектирование структуры проекта и схемы базы данных (хранение локаций, пользователей и т.д.).]]></notes>
+                <depend id="41" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="41" uid="7890be846a0340d4ab822a5c1f8f4f15" name="Реализация REST API" color="#ffff00" meeting="false" start="2025-04-03" duration="10" complete="0" priority="2" expand="true">
+                <notes><![CDATA[Создание эндпоинтов для авторизации, получения списка локаций, проверки ответов пользователя и пр.]]></notes>
+                <depend id="34" type="2" difference="0" hardness="Strong"/>
+                <depend id="42" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="42" uid="a4f6a7ed4fd7421697ad8c7a43ffcb34" name="Интеграция с панорамами/картами" color="#ffff00" meeting="false" start="2025-04-15" duration="5" complete="0" priority="2" expand="true">
+                <notes><![CDATA[Настройка работы с API сторонних сервисов (Яндекс.Панорамы).]]></notes>
+                <depend id="43" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="43" uid="0cd2687fe39e44aa909be12c029eb668" name="Обеспечение безопасности" color="#ffff00" meeting="false" start="2025-04-21" duration="5" complete="0" priority="2" expand="true">
+                <notes><![CDATA[Настройка механизмов безопасности: JWT/OAuth, шифрование данных, валидация запросов.]]></notes>
+            </task>
+        </task>
+        <task id="44" uid="7324da586b214b63b89ba13ed17e76e7" name="Тестирование" color="#ffcccc" meeting="false" start="2025-04-02" duration="26" complete="0" expand="true">
+            <task id="50" uid="e0c2506af7f044b39ff9c9e613182ac3" name="Разработка плана тестирования" color="#ffcccc" meeting="false" start="2025-04-02" duration="2" complete="0" priority="2" expand="true">
+                <notes><![CDATA[Определение видов тестов (модульные, интеграционные, end-to-end) и критериев приемки.]]></notes>
+            </task>
+            <task id="51" uid="abc75f1b594f46ed90a2696941a9e070" name="Написание тест-кейсов" color="#ffcccc" meeting="false" start="2025-04-04" duration="3" complete="0" expand="true">
+                <notes><![CDATA[Создание конкретных сценариев тестирования функционала (угадывание локации и пр.).]]></notes>
+            </task>
+            <task id="52" uid="5f7c2e6e32284626845237ca0c7c1efb" name="Функциональное тестирование" color="#ffcccc" meeting="false" start="2025-04-18" duration="9" complete="0" expand="true">
+                <notes><![CDATA[Проверка корректности работы ключевых функций (регистрация, авторизация, угадывание локации и пр.).]]></notes>
+            </task>
+            <task id="58" uid="435f573018e44fbaa33f2b88f4f27932" name="Нагрузочное/стресс-тестирование" color="#ffcccc" meeting="false" start="2025-04-23" duration="6" complete="0" expand="true">
+                <notes><![CDATA[Оценка производительности и устойчивости приложения при пиковых нагрузках.]]></notes>
+            </task>
+            <task id="63" uid="e2e1bb2a736d4d949b9caac8cd255ba5" name="Приёмочное тестирование" color="#ffcccc" meeting="false" start="2025-04-30" duration="2" complete="0" expand="true">
+                <notes><![CDATA[Финальная проверка готовности продукта к релизу.]]></notes>
+            </task>
+        </task>
+        <task id="80" uid="646b2f8fbb154ad7bff3186a84a0012d" name="Закрытие" color="#009999" meeting="false" start="2025-05-03" duration="7" complete="0" expand="true">
+            <task id="81" uid="aff30f7635604361970c8f2ff92c4b5f" name="Финальное приемочное тестирование" color="#ffcccc" meeting="false" start="2025-05-03" duration="2" complete="0" priority="2" expand="true">
+                <notes><![CDATA[Проведение итоговой проверки по всем критериям готовности и формальное подтверждение качества продукта.]]></notes>
+            </task>
+            <task id="82" uid="3f34d5dbf1f94ba0a8ca975758c64cdf" name="Обучение и передача продукта стейкхолдерам" color="#99ff66" meeting="false" start="2025-05-06" duration="2" complete="0" expand="true">
+                <notes><![CDATA[Демонстрация работы приложения, предоставление инструкций по эксплуатации и сбор обратной связи.]]></notes>
+            </task>
+            <task id="87" uid="639a0ba626454dadbe4f7396bcb34c96" name="Итоговый отчёт по проекту" color="#cccccc" meeting="false" start="2025-05-08" duration="2" complete="0" expand="true">
+                <notes><![CDATA[Документирование результатов, выявленных проблем и рекомендаций по улучшению.]]></notes>
+            </task>
+            <task id="88" uid="7a1f526c8aa34e9a925db584a862956e" name="Формальное закрытие проекта" color="#9933ff" meeting="false" start="2025-05-12" duration="1" complete="0" expand="true">
+                <notes><![CDATA[Подписание необходимых документов, архивация материалов, расформирование команды (при необходимости).]]></notes>
+            </task>
+        </task>
+        <task id="64" uid="20d0f38c4ebf4fb1b2bad2e6b4cda15c" name="Мониторинг и контроль" color="#9999ff" meeting="false" start="2025-02-05" duration="80" complete="0" expand="true">
+            <task id="69" uid="aca630c059ba4364b082f0c5628514cf" name="Отслеживание статуса задач" color="#9999ff" meeting="false" start="2025-02-05" duration="80" complete="0" priority="2" expand="true">
+                <notes><![CDATA[Регулярные встречи (стендапы, ретро), обновление статуса в таск-трекере (Jira/Trello) на протяжении проекта.]]></notes>
+            </task>
+            <task id="76" uid="5f7fa30e4a1f4b38b4cd6db1759be790" name="Контроль рисков" color="#9999ff" meeting="false" start="2025-02-05" duration="80" complete="0" expand="true">
+                <notes><![CDATA[Отслеживание выявленных рисков и реализация плана реагирования при необходимости.]]></notes>
+            </task>
+            <task id="75" uid="7383d94007194ee389930d0789985cba" name="Контроль качества" color="#9999ff" meeting="false" start="2025-02-05" duration="80" complete="0" priority="2" expand="true">
+                <notes><![CDATA[Проведение промежуточных проверок (тесты, код-ревью, мониторинг метрик).]]></notes>
+            </task>
+            <task id="74" uid="134786111c3845c98884a42c6d8f44bb" name="Контроль изменений и версий" color="#9999ff" meeting="false" start="2025-02-05" duration="80" complete="0" expand="true">
+                <notes><![CDATA[Утверждение запросов на изменение функционала/дизайна, ведение версий приложения.]]></notes>
+            </task>
+            <task id="77" uid="d0a7e0e1ce294172ac0cf095980d0d30" name="Контроль бюджета" color="#9999ff" meeting="false" start="2025-02-05" duration="80" complete="0" expand="true">
+                <notes><![CDATA[Сверка фактических затрат с плановыми, корректировка бюджета по мере необходимости.]]></notes>
+            </task>
+        </task>
+    </tasks>
+    <resources>
+        <resource id="0" name="Тимур Кучин" function="2" contacts="kuchin.timur@bk.ru" phone="+79612402266">
+            <rate name="standard" value="30000"/>
+        </resource>
+        <resource id="1" name="Шульга Ольга" function="4" contacts="olga.shulga@mail.ru" phone="+79831071210">
+            <rate name="standard" value="30000"/>
+        </resource>
+    </resources>
+    <allocations>
+        <allocation task-id="2" resource-id="0" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="3" resource-id="0" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="4" resource-id="0" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="6" resource-id="0" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="10" resource-id="0" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="12" resource-id="0" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="13" resource-id="0" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="14" resource-id="0" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="25" resource-id="0" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="24" resource-id="0" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="23" resource-id="0" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="21" resource-id="0" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="20" resource-id="0" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="19" resource-id="0" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="18" resource-id="0" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="17" resource-id="0" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="15" resource-id="0" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="16" resource-id="0" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="26" resource-id="0" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="27" resource-id="0" function="5" responsible="true" load="100.0"/>
+        <allocation task-id="28" resource-id="0" function="5" responsible="true" load="100.0"/>
+        <allocation task-id="29" resource-id="0" function="5" responsible="true" load="100.0"/>
+        <allocation task-id="31" resource-id="0" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="32" resource-id="0" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="33" resource-id="0" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="75" resource-id="0" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="76" resource-id="0" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="69" resource-id="0" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="74" resource-id="0" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="77" resource-id="0" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="79" resource-id="0" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="78" resource-id="0" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="82" resource-id="0" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="87" resource-id="0" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="88" resource-id="0" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="89" resource-id="0" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="92" resource-id="0" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="25" resource-id="1" function="6" responsible="false" load="100.0"/>
+        <allocation task-id="18" resource-id="1" function="7" responsible="false" load="100.0"/>
+        <allocation task-id="36" resource-id="1" function="7" responsible="true" load="100.0"/>
+        <allocation task-id="37" resource-id="1" function="7" responsible="true" load="100.0"/>
+        <allocation task-id="38" resource-id="1" function="7" responsible="true" load="100.0"/>
+        <allocation task-id="39" resource-id="1" function="4" responsible="true" load="100.0"/>
+        <allocation task-id="42" resource-id="1" function="4" responsible="true" load="100.0"/>
+        <allocation task-id="43" resource-id="1" function="4" responsible="true" load="100.0"/>
+        <allocation task-id="50" resource-id="1" function="6" responsible="true" load="100.0"/>
+        <allocation task-id="58" resource-id="1" function="6" responsible="true" load="100.0"/>
+        <allocation task-id="52" resource-id="1" function="6" responsible="true" load="100.0"/>
+        <allocation task-id="63" resource-id="1" function="6" responsible="true" load="100.0"/>
+        <allocation task-id="51" resource-id="1" function="6" responsible="true" load="100.0"/>
+        <allocation task-id="75" resource-id="1" function="6" responsible="false" load="100.0"/>
+        <allocation task-id="81" resource-id="1" function="6" responsible="true" load="100.0"/>
+        <allocation task-id="35" resource-id="1" function="7" responsible="true" load="100.0"/>
+    </allocations>
+    <vacations>
+        <vacation start="2025-05-05" end="2025-05-19" resourceid="0"/>
+        <vacation start="2025-05-19" end="2025-06-01" resourceid="1"/>
+    </vacations>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles>
+        <role id="1" name="Владелец продукта"/>
+        <role id="2" name="Менеджер проекта"/>
+        <role id="3" name="Фронтенд-разработчик"/>
+        <role id="4" name="Бэкенд-разработчик"/>
+        <role id="5" name="Дизайнер"/>
+        <role id="6" name="Тестировщик"/>
+        <role id="7" name="Системный администратор/DevOps"/>
+    </roles>
+</project>
