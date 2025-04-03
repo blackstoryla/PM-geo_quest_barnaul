@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Разработка приложения ГеоКвест.Барнаул" company="Лаборатория разработки Web-сервисов" webLink="http://kuchin.myspt.ru" view-date="2025-01-27" view-index="0" gantt-divider-location="661" resource-divider-location="430" version="3.3.3316" locale="ru_RU">
+<?xml version="1.0" encoding="UTF-8"?><project name="Разработка приложения ГеоКвест.Барнаул" company="Лаборатория разработки Web-сервисов" webLink="http://kuchin.myspt.ru" view-date="2025-01-27" view-index="1" gantt-divider-location="646" resource-divider-location="430" version="3.3.3316" locale="ru_RU">
     <description><![CDATA[Создание игрового веб-приложения, которое позволит пользователям угадывать места в городе Барнаул, основываясь на панорамах.]]></description>
     <view zooming-state="default:5" id="gantt-chart">
-        <field id="tpd3" name="Название" width="368" order="0"/>
-        <field id="tpd4" name="Дата начала" width="138" order="1"/>
-        <field id="tpd5" name="Дата окончания" width="139" order="2"/>
+        <field id="tpd3" name="Название" width="359" order="0"/>
+        <field id="tpd4" name="Дата начала" width="135" order="1"/>
+        <field id="tpd5" name="Дата окончания" width="136" order="2"/>
         <field id="tpd15" name="Заметки" width="20" order="3"/>
         <option id="filter.completedTasks" value="false"/>
         <option id="filter.dueTodayTasks" value="false"/>
@@ -12,8 +12,8 @@
         <option id="color.recent"><![CDATA[#99ff66 #000000 #999900 #009999 #ffcccc #cccccc #9933ff #00cccc #ccff00 #990066]]></option>
     </view>
     <view id="resource-table">
-        <field id="0" name="Имя" width="219" order="0"/>
-        <field id="1" name="Стандартная роль" width="192" order="1"/>
+        <field id="0" name="Имя" width="226" order="0"/>
+        <field id="1" name="Стандартная роль" width="200" order="1"/>
     </view>
     <!-- -->
     <calendars>
@@ -303,7 +303,7 @@
         </task>
     </tasks>
     <resources>
-        <resource id="0" name="Тимур Кучин" function="2" contacts="kuchin.timur@bk.ru" phone="+79612402266">
+        <resource id="0" name="Тимур Кучин" function="Default:1" contacts="kuchin.timur@bk.ru" phone="+79612402266">
             <rate name="standard" value="30000"/>
         </resource>
         <resource id="1" name="Шульга Ольга" function="4" contacts="olga.shulga@mail.ru" phone="+79831071210">
